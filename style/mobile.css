@@ -1,0 +1,152 @@
+@media screen and (max-width: 896px){
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-2,
+  .grid-3{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 0.3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    height: 60vh;
+  }
+  
+  #price{
+    text-align: center;
+  }
+
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .main-nav ul{
+      display: none;
+  }
+
+  .grid-2,
+  .grid-3{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+
+  .container img{
+    padding: 1rem 0;
+  }
+
+/* The side navigation menu */
+.sidenav {
+   height: 100%; 
+   width: 0; 
+   position: fixed; 
+   z-index: 1; 
+   top: 0; 
+   left: 0;
+   background-color: #333; 
+   overflow-x: hidden; 
+   padding-top: 60px; 
+   transition: 0.5s; 
+ }
+ 
+ /* The navigation menu links */
+ .sidenav a {
+   
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #fff;
+   display: block;
+   transition: 0.3s;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ /* When you mouse over the navigation links, change their color */
+ .sidenav a:hover {
+   color: var(--primary-color);
+ }
+ 
+ /* Position and style the close button (top right corner) */
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+
+ span{
+  display: inline;
+   color: #fff;
+   cursor: pointer;
+   font-size: 1.5rem;
+  
+ }
+
+ span:hover{
+   color: var(--primary-color);
+ }
+
+ .info .container{
+   grid-template-columns: 1fr;
+ }
+
+.client-info{
+  grid-template-columns: 1fr;
+}
+
+.sidenav{
+ justify-items: center;
+}
+.sidenav .closebtn{
+  justify-items: end;
+}
+
+/* Home page */
+
+.overlay .main-nav h1{
+  font-size: 1rem;
+}
+
+.overlay-content{
+  font-size: smaller;
+}
+
+.overlay-content h1{
+ border-bottom: none;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.training h3,
+.nutrition h3{
+  font-size: smaller;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer{
+  font-size: 0.7rem;
+}
+
+}
+
+
+
+
+

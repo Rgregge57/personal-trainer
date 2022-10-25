@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/mobile.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./javascript/main.js"></script>
+    <title>Fitness Instructor | Home</title>
+</head>
+<body>
+    
+ 
+  <header class="overlay">
+    <nav class="main-nav">
+            <h1>Fitness Instructor</h1>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+                
+            
+         <!-- sidenav for mobile device -->
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="about.html">Packages</a>
+              <a href="#contact">Contact</a>
+            </div>
+              
+            <span onclick="openNav()">&#9776;</span>
+            
+          </nav>
+          
+                    <div class="overlay-content">
+                      
+                        <h1>Fitness Instructor</h1>
+                        <p>For all your fitness needs </p>
+                        <a class="btn" href="about.html" alt="Learn more about the owner of the site">About Me</a>
+                    
+                    </div>
+  </header>
+  <main>
+
+    <section class="container grid-2">
+      <div>
+        <img src="https://images.unsplash.com/photo-1574680088814-c9e8a10d8a4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="gym instructor">
+      </div>
+      <div>
+        <h2 id="heading">Over 10 years in the fitness industry</h2>
+        <p>Inital consultation & first training session are FREE!</p> 
+        <a class="btn" href="contact.html" alt="Get in touch">Contact</a>
+      </div>
+    </section>
+    <section class="container grid-2">
+      <div>
+        <h2 id="heading">How can I help you...</h2>
+        <ul>
+         <li>Training Plans <i class="fa-sharp fa-solid fa-check"></i> </li>
+         <li></i>Nutrition Advice <i class="fa-sharp fa-solid fa-check"></i> </li>
+         <li></i>Meal Plans <i class="fa-sharp fa-solid fa-check"></i> </li>
+         <li></i>Injury Recovery <i class="fa-sharp fa-solid fa-check"></i> </li>
+         <li></i>Weight Loss <i class="fa-sharp fa-solid fa-check"></i> </li>
+         <li></i></i>Build Muscle <i class="fa-sharp fa-solid fa-check"></i> </li>
+        </ul>  
+      </div>
+      <div>
+        <img src="https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="gym exercise">
+      </div>
+    </section>
+    <section class="container">
+      <div class="clients">
+        <h2 id="heading">What My Clients Say</h2>
+      </div>
+      <div class="grid-3">
+        <div>
+          <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="client statment">
+          <p>Each session is hard, but it is great to know that the support is there to keep pushing me</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1571019613531-fbeaeb790845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="client statement">
+          <p>I could barly run 200 yards before I started training. The instructor has helped me set small goals that I could reach. One year on and I run 5 miles three times a week</p>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/5750912/pexels-photo-5750912.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="client statment">
+          <p>My physique has changed dramatically. Thanks to the training and nutrition program</p>
+        </div>
+      </div>
+    </section>
+  
+<div id="contact" class="contact" >
+    <div class="grid-container">    
+      <div>
+       
+        
+          <h3>Call </h3>
+          <p>(555) 1234 122</p>
+         
+          <h3>Email </h3>
+          <p>personaltrainer@email.com</p>
+        </div>
+
+        <div>
+          <h3>Vist Us</h3>
+      <p>Unit 4 
+        <br>
+        Business Park
+        <br>
+        City
+        <br>
+        BT11 1AB
+      </p>
+  
+        </div>
+        <div>
+          <h3>Follow Us  </h3>
+          <a href="https://en-gb.facebook.com " aria-label="Facebook" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://twitter.com/?lang=en-gb" aria-label="Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      
+        
+        </div>
+
+    </div>
+    </div>
+
+          
+
+
+    <footer class="footer">
+      
+      <div>
+        <p>All Rights Reserved &copy; 2022 Fitness Instructor</p>
+      </div>
+
+    </footer>
+        
+        
+        
+            
+      
+           
